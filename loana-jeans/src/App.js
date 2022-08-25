@@ -20,8 +20,8 @@ function App() {
           <Route path="/camperas" element={<Camperas />} />
           <Route path="/ofertas" element={<Ofertas />} />
         </Routes> */}
-      <Footer />
       {/* </Router> */}
+      <Footer />
     </div>
   );
 }
