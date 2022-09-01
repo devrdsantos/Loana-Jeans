@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/footer.css";
 
 function Footer() {
-  return (
+    return (
 <footer>
             <div className="row primary">
                 <div className="column">
@@ -48,11 +48,11 @@ function Footer() {
                         </li>
                     </ul>
                 </div>
-
+            </div>
                     <p>© Loana Jeans 2020 - 2022 . Todos los derechos reservados.</p>
 
             </footer>
-  );
+    );
 }
 
 export default Footer;
