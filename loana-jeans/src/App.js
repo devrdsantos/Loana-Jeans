@@ -7,11 +7,11 @@ import "./App.css";
 // import Ofertas from "./components/pages/Ofertas";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-
 function App() {
   return (
-    <div className="App">
+    <footer className="App">
       {/* <Router> */}
+      <Footer />
       <Header />
       {/* <Routes>
           <Route path="/" element={<Home />} />
@@ -20,9 +20,10 @@ function App() {
           <Route path="/camperas" element={<Camperas />} />
           <Route path="/ofertas" element={<Ofertas />} />
         </Routes> */}
-      <Footer />
+      
+
       {/* </Router> */}
-    </div>
+    </footer>
   );
 }
 
