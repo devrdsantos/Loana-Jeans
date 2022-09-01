@@ -1,4 +1,6 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css"
+//import CarouselMain from "./components/CarouselMain";
 // import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // import Home from "./components/pages/Home";
 // import Jeans from "./components/pages/Jeans";
@@ -7,7 +9,6 @@ import "./App.css";
 // import Ofertas from "./components/pages/Ofertas";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-
 function App() {
   return (
     <div className="App">

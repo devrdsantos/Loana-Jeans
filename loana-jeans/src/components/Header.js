@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/header.css";
+import CarouselMain from "./CarouselMain";
 
 function Header() {
   return (
@@ -20,6 +21,7 @@ function Header() {
           <li ClassName="navbar-header-li">Buscador y Logos</li>
         </ul>
       </nav>
+      <CarouselMain />
     </header>
   );
 }

@@ -1,0 +1,34 @@
+.carousel-size {
+
+    height: 28rem;
+    display:flex;
+}
+
+.carousel-control-prev-icon {
+    display: none;
+}
+
+.carousel-control-next-icon {
+    display: none;
+}
+
+.aviso-linea-1-carousel {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 60px;
+}
+
+.aviso-linea-2-carousel {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 40px;
+}
+
