@@ -1,59 +1,77 @@
 import React from "react";
-import "../styles/footer.css";
-// import img1 from "./../assets/logo.png"
+import "bootstrap/dist/css/bootstrap.min.css";
+import logoFooter from "../styles/assets/logo-footer-negro.png"
+import iconosFooter from "../styles/assets/img__vectores/Vector.png"
+import iconosFooter2 from "../styles/assets/img__vectores/Vector_w.png"
 function Footer() {
-    return (
-    <footer class="footer">
-        <div class="row primary">
-            <div class="column">
-                {/* hay que cargar la imagen desde la carpeta "assets" para que se vea */}
-                <img src="img/logo.png" width="210px" height="190px" alt="Logo img" />
+    return(
+    <footer>
+        <div class="container-fluid">
+            <div class="row p-5 pb-2 bg-black text-white">
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="h3">
+
+                    <img src={logoFooter} width="170" alt="logo negro" />
+                </div>
+                </div>
+
+
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5 mb-2 text-white">Productos</p>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="">Jeans</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="">Shorts</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="">Camperas</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="">Ofertas</a>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5 mb-2 text-white">Contacto</p>
+                        <div class=" mb-2 text-secondary"> <img src={iconosFooter} alt="ubicacion" /> Av. San Martín 1587, CABA,</div>
+                        <div class=" mb-2 text-secondary"> <img src={iconosFooter2} alt="whatsapp" /> (+54) 9 11-5674-1599</div>
+                </div>
+
+
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5 text-white">Nuestras Redes</p>
+                <div class="mb-2">
+                    <a class="text-secondary text-decoration-none" href="">Facebook</a>
+                </div>
+                    <div class="mb-2">
+                    </div>
+                <div class="mb-2">
+                    <a class="text-secondary text-decoration-none" href="">Instagram</a>
+                </div>
+                    <div class="mb-2">
+                    </div>
+                <div class="mb-2">
+                    <a class="text-secondary text-decoration-none" href="">Twitter</a>
+                </div>
+                    <div class="mb-2">
+                    </div>
+                <div class="mb-2">
+                    <a class="text-secondary text-decoration-none" href="">Snapchat</a>
+                </div>
+                </div>
+                <div class="text-center pt-3 col-xs-12">
+                © Loana Jeans 2020 - 2022 . Todos los derechos reservados.
+                </div>
             </div>
-                <div class="column links">
-                    <h2 class="h2__titulo-seccion--productos">Productos</h2>
-                        <ul class="ul__list">
-                            <li class="li__list-links">
-                                <a href="#">Camperas</a>
-                            </li>
-
-                            <li class="li__list-links">
-                                <a href="#">Jeans</a>
-                            </li>
-                            <li class="li__list-links">
-                                <a href="#">Shorts</a>
-                            </li>
-                            <li class="li__list-links">
-                                <a href="#">Ofertas</a>
-                            </li>
-                        </ul>
-                </div>
-
-                <div class="column links">
-                    <h2 class="h2__titulo-seccion--contacto">Contacto</h2>
-                        <ul class="ul__list">
-                            <li class="li__list-links">
-                                                            {/* hay que cargar la imagen desde la carpeta "assets" > "img_vectores" para que se vea */}
-                                <p class="footer__p-info"> <img src="img/img__vectores/Vector.png"  width="15px" alt="vector ubicacion" /> Av. San Martín 1587, CABA </p>
-                                                            {/* hay que cargar la imagen desde la carpeta "assets" > "img_vectores" para que se vea */}
-                                <p footer__p-info > <img src="img/img__vectores/Vector_w.png" width="17px" alt="vector whatsapp" /> (+54) 9 11-5674-1599 </p>
-                            </li>
-                        </ul>
-                </div>
-
-                <div class="column links">
-                    <h2 class="h2__titulo-seccion--seguinos">Seguinos</h2>
-                        <ul class="ul__list">
-                            <li class="li__list-links">
-                                <a href="#">Instagram</a>
-                            </li>
-
-                            <li class="li__list-links">
-                                <a href="#">Facebook</a>
-                            </li>
-                        </ul>
-                </div>
-                <p class="footer__p-info-copyright">© Loana Jeans 2020 - 2022 . Todos los derechos reservados.</p>
-            </div>
+        </div>
+        
+        <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+        crossorigin="anonymous">
+        </script>         
     </footer>
     );
 }

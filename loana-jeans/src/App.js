@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 // import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // import Home from "./components/pages/Home";
@@ -5,14 +6,14 @@ import "./App.css";
 // import Shorts from "./components/pages/Shorts";
 // import Camperas from "./components/pages/Camperas";
 // import Ofertas from "./components/pages/Ofertas";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+// import Header from "./components/Header";
+   import Footer from "./components/Footer";
+
 function App() {
   return (
-    <footer className="App">
+    <div className="App">
       {/* <Router> */}
       <Footer />
-      <Header />
       {/* <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/jeans" element={<Jeans />} />
@@ -23,7 +24,7 @@ function App() {
       
 
       {/* </Router> */}
-    </footer>
+    </div>
   );
 }
 
